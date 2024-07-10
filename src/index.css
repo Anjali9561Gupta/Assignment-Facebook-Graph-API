@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #4267B2;
+  color: white;
+  padding: 10px 0;
+  font-size: 24px;
+}
+
+/* Facebook Login Button */
+button {
+  background-color: #4267B2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #365899;
+}
+
+/* User Info */
+.user-info {
+  margin: 20px 0;
+}
+
+.user-info img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+/* Page List */
+.page-list {
+  margin: 20px 0;
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+/* Insights Cards */
+.insights {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.insight-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+.insight-card h3 {
+  margin-top: 0;
+}
+
+.insight-card p {
+  font-size: 18px;
+  margin: 10px 0;
+}
